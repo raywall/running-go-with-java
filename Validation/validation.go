@@ -100,7 +100,7 @@ func main() {
 	case "stdin":
 		// Lê JSON do stdin
 		var inputJson string
-		fmt.Scanln(&inputJson)
+		_, _ = fmt.Scanln(&inputJson)
 		processJson(inputJson)
 
 	case "single":
